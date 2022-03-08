@@ -1,6 +1,6 @@
 resource "aws_db_instance" "project-1" {
   allocated_storage      = 10
-  identifier             = "kitproject-1"
+  identifier             = "kitskatproject"
   engine                 = "mysql"
   engine_version         = "5.7"
   instance_class         = "db.t3.micro"
